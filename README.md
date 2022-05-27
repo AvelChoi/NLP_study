@@ -7,5 +7,7 @@
 * NLTK, KonNLPy 설치
 * Pandas, Numpy는 아나콘다에 포함
 
+### 4) 판다스(Pandas) / 넘파이(Numpy) / 맷플롭립(Matplotlib)
+
 ## 2. 텍스트 전처리
 
