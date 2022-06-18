@@ -5,5 +5,5 @@
 ## 목차
 1. [자연어 처리](https://github.com/AvelChoi/NLP_study/tree/master/01.%20Intro)
 2. [텍스트 전처리](https://github.com/AvelChoi/NLP_study/tree/master/02.%20Text%20Processing)
-3. 언어 모델
+3. [언어 모델](https://github.com/AvelChoi/NLP_study/tree/master/03.%20Language%20Model)
 
