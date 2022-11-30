@@ -42,3 +42,22 @@ for sentence in sentences:
 vocab_sorted = sorted(vocab.items(), key=lambda x:x[1], reverse=True)
 # print(vocab_sorted)
 
+word_to_index = {}
+i = 0
+for (word, frequency) in vocab_sorted:
+    if frequency > 1:
+        i = i + 1
+        word_to_index[word] = i
+
+# print(word_to_index)
+
+# 상위 5개 단어만 추려내기
+vocab_size = 5
+
+words_frequency = [word for word, index in word_to_index.items() if index >= vocab_size + 1]
+
+# 해당 단어에 대한 인덱스 정보를 삭제
+for w in words_frequency:
+    del word_to_index[w]
+
+print(word_to_index)

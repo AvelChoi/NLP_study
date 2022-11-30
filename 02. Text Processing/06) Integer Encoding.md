@@ -64,3 +64,15 @@ vocab_sorted = sorted(vocab.items(), key=lambda x:x[1], reverse=True)
 ```
 
 이렇게 정렬은 했지만, 결국 최종적으로 순위를 1부터 부여하고자 한다.
+또한, 빈도수가 낮은 단어는 제외시킨 새로운 딕셔너리를 만든다.
+```python
+{'barber': 1, 'secret': 2, 'huge': 3, 'kept': 4, 'person': 5, 'word': 6, 'keeping': 7}
+```
+
+여기에 더해, 자연어처리를 하다 보면 빈도수가 높은 n개의 단어만 사용하고 싶을 때가 있다.
+이럴 때는 리스트 컴프리헨션을 사용하면 된다.
+
+```python
+{'barber': 1, 'secret': 2, 'huge': 3, 'kept': 4, 'person': 5}
+```
+
